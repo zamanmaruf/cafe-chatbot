@@ -1,0 +1,56 @@
+.hero-section {
+  position: relative;
+  min-height: 60vh;
+  background: url('/images/cafe-hero.jpg') center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(255, 248, 240, 0.85);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-content {
+  text-align: center;
+  color: #5a3a1b;
+  z-index: 2;
+}
+
+.hero-cafe {
+  font-family: 'Merriweather', serif;
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+  letter-spacing: 2px;
+}
+
+.hero-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero-subtitle {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.hero-cta {
+  background: #b77b4b;
+  color: #fff;
+  border: none;
+  padding: 0.8rem 2rem;
+  font-size: 1.1rem;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.hero-cta:hover {
+  background: #8c5c2b;
+} 

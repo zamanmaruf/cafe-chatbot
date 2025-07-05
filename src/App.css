@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Montserrat:wght@400;600&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', Arial, sans-serif;
+  background: #f6f1eb;
+  color: #5a3a1b;
+}
+
+section {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+h1, h2, h3 {
+  font-family: 'Merriweather', serif;
+  margin-top: 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 700px) {
+  .menu-categories {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  .map-embed-container {
+    max-width: 100%;
+  }
+}
+
+/* Remove Vite/React demo styles */
+.logo, .card, .read-the-docs {
+  display: none !important;
+}

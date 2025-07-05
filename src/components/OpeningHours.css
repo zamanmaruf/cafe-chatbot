@@ -1,0 +1,33 @@
+.hours-section {
+  background: #fff8f0;
+  padding: 3rem 1.5rem;
+  color: #5a3a1b;
+  text-align: center;
+}
+
+.hours-section h2 {
+  font-family: 'Merriweather', serif;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.hours-table {
+  margin: 0 auto 1.5rem auto;
+  border-collapse: collapse;
+  font-size: 1.1rem;
+}
+
+.hours-table td {
+  padding: 0.5rem 1.5rem;
+  border-bottom: 1px solid #f0e6db;
+}
+
+.hours-table tr:last-child td {
+  border-bottom: none;
+}
+
+.contact-info {
+  margin-top: 1.5rem;
+  font-size: 1.05rem;
+  color: #7a5a3a;
+} 

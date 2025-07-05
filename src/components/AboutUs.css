@@ -1,0 +1,19 @@
+.about-section {
+  background: #fff8f0;
+  padding: 3rem 1.5rem;
+  text-align: center;
+  color: #5a3a1b;
+}
+
+.about-section h2 {
+  font-family: 'Merriweather', serif;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.about-section p {
+  font-size: 1.1rem;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.7;
+} 
